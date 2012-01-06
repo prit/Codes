@@ -79,6 +79,10 @@ class solution(object):
             else: # If empty then add all options
                 for deal in deals:
                     purchaseOptions[deal[0]] = (deal[1], deal[2])
+            for k in purchaseOptions.keys():
+                if searchItem not in purchaseOptions[k][1]:
+                    purchaseOptions.pop(k)
+
 
         #Print(deals)
         bestDeal=min(purchaseOptions.iteritems(), key=lambda x: x[1])
