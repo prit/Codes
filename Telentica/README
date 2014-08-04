@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------
+1. Files in the folders: This folder contains 4 files. Please find the description below:
+
+1.1 problem.txt: Describes the problem statement
+1.2 data.csv: Contains data for the problem
+1.3 program.py: python script which reads the data file and search for requested food products
+1.4 README: You are currently reading this file :)
+
+----------------------------------------------------------------------------------------------------
+2. Running the program
+
+2.1 Usages:
+Run the following command in shell.
+$ ./program.py DataFileCSV[Req] Item1[Req] Item2[Opt] Item3[Opt] ...
+
+Got error in running above. Check section 2.2 or run it as described below. This can be used in windows as well.
+$ python program.py DataFileCSV[Req] Item1[Req] Item2[Opt] Item3[Opt] ...
+
+2.2 Check for python installation: I have python installed in /usr/bin/python location. You might have different location depending upon your OS. Try "which python" to get the location of python executable. If output is "not found" then you need to install python in your system. However in linux it is least likely. You need to change "/usr/bin/python" (first line of the code) to the output of "which python" command.
+
+----------------------------------------------------------------------------------------------------
+
